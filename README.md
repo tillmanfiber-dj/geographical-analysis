@@ -1,7 +1,7 @@
 
 
 ## Live links
-- Leaflet Map  https://tillmanfiber-dj.github.io/leaflet-maps-gs/
+- Map Site     https://tillmanfiber-dj.github.io/geographical-analysis/
 - Google Sheets template https://docs.google.com/spreadsheets/d/1mXm1Lmt4cr2N77mb1WNgcuDxM-gOPtIgcY0YzWv4cu8/edit#gid=0
 
 ## Credits (and licenses)
