@@ -44,7 +44,15 @@ qgs.initQgis()
 print('Performing QGIS processing')
 # Write your code here to load some layers, use processing
 # algorithms, etc.
-layer = QgsVectorLayer(data_source, layer_name, provider_name)
+layer = QgsVectorLayer(/Volume/Seagate/Tillman Maps/county/Base_Sarasota.geojson', 'Base_Sarasota_x','ogr')
+if not layer.isValid():
+    print("Layer failed to load!")
+
+
+featurelist = layer.getFeatures()
+for feature in  featurelist:
+    attrs = feature.attributes()
+    print(attrs)
 
 
 # Finally, exitQgis() is called to remove the
