@@ -1111,6 +1111,7 @@ $(window).on('load', function() {
   // Returns a string that contains digits of val split by comma evey 3 positions
   // Example: 12345678 -> "12,345,678"
   function comma(val) {
+      if (val > 1000000) return val;
       while (/(\d+)(\d{3})/.test(val.toString())) {
           val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
       }
